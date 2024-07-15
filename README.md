@@ -10,28 +10,42 @@ This is a basic example of authentication and a sample dashboard for company and
 
 ## Overview
 
+This is a custom admin dashboard template using the following stack
+
+- Framework - Next.js(App Router)
+- Language - TypeScript
+- Authentication - NextAuth.js
+- Database - Mongodb
+- Deployment - TBD
+- Styling - Tailwind CSS
+- Components - NextUI
+- Analytics - TBD
+- Formatting - Prettier
+- Icons - ReactIcons
+- Testing - TBD
+
 NextAuth.js is a complete open source authentication solution.
 
-This is an example application that shows how `next-auth` is applied to a basic Next.js app.
+This is an example application that shows how `next-auth` is applied to a admin dashboard Next.js app.
 
-The deployed version can be found at [`next-auth-example.vercel.app`](https://next-auth-example.vercel.app)
+The deployed version can be found at [`TBD`](https://tbd.net)
 
-### About NextAuth.js
+### About NextAuthDashboard
 
-NextAuth.js is an easy to implement, full-stack (client/server) open source authentication library originally designed for [Next.js](https://nextjs.org) and [Serverless](https://vercel.com). Our goal is to [support even more frameworks](https://github.com/nextauthjs/next-auth/issues/2294) in the future.
 
-Go to [next-auth.js.org](https://authjs.dev) for more information and documentation.
 
-> _NextAuth.js is not officially associated with Vercel or Next.js._
+Go to [next-auth-dashboard](https://github.com/focus9345/next-auth-dashboard) for more information and documentation.
+
+> 
 
 ## Getting Started
 
 ### 1. Clone the repository and install dependencies
 
 ```
-git clone https://github.com/nextauthjs/next-auth-example.git
-cd next-auth-example
-pnpm install
+git clone https://github.com/focus9345/next-auth-dashboard
+cd next-auth-dashboard
+npm install
 ```
 
 ### 2. Configure your local environment
@@ -71,26 +85,23 @@ A list of configured providers and their callback URLs is available from the end
 To run your site locally, use:
 
 ```
-pnpm run dev
+npm run dev
 ```
 
 To run it in production mode, use:
 
 ```
-pnpm run build
-pnpm run start
+npm run build
+npm run start
 ```
 
 ### 5. Preparing for Production
 
-Follow the [Deployment documentation](https://authjs.dev/getting-started/deployment)
+Follow the [Deployment TBD](https://tbd.net)
 
 ## Acknowledgements
 
-<a href="https://vercel.com?utm_source=nextauthjs&utm_campaign=oss">
-<img width="170px" src="https://raw.githubusercontent.com/nextauthjs/next-auth/main/docs/public/img/etc/powered-by-vercel.svg" alt="Powered By Vercel" />
-</a>
-<p align="left">Thanks to Vercel sponsoring this project by allowing it to be deployed for free for the entire NextAuth.js Team</p>
+Built by developer Joshua Connor
 
 ## License
 
