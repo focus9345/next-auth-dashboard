@@ -10,7 +10,7 @@ export default async function Home() {
       {session ? (
         <UserCard user={session?.user} pagetype={"Home"} />
       ) : (
-        <h1 className="text-4xl">Please Signin</h1>
+        <h1 className="text-4xl p-10">Please Sign In</h1>
       )}
     </>
   )

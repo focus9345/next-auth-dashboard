@@ -7,16 +7,20 @@ export default async function UserNavbar() {
     const userName = session?.user?.name
 
     return (
-        <nav className="bg-slate-400 p-4">
-            <ul className="flex justify-evenly text-2xl font-bold">
+        <nav className="bg-slate-800 p-5">
+            <ul className="flex justify-evenly font-semibold">
+                <li>Company</li>
+                <li className="grow"></li>
 
                 {session ? (
                     <>
-                        <li> { userName } </li> 
-                        <li><Link href="/api/auth/signout">Sign Out</Link></li>
+                        <li>
+                            <span className="p-x6"> { userName } </span>
+                            <Link href="/api/auth/signout" className="bg-blue-500 hover:bg-blue-700 text-white font-regular py-2 px-4 rounded-full">Sign Out</Link>
+                        </li>
                     </>
                 ) : (
-                    <li><Link href="/api/auth/signin">Sign In</Link></li>
+                    <li><Link href="/api/auth/signin" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">Sign In</Link></li>
                 )}
 
 
